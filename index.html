@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小红书美妆品牌数据分析看板</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="dashboard-header">
+            <h1>📊 小红书美妆品牌数据分析看板</h1>
+            <p>基于Python爬虫数据的实时展示</p>
+        </header>
+
+        <div class="stats-overview">
+            <div class="stat-card">
+                <h3>总笔记数</h3>
+                <span id="totalNotes" class="stat-number">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>平均点赞</h3>
+                <span id="avgLikes" class="stat-number">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>视频笔记占比</h3>
+                <span id="videoRatio" class="stat-number">0%</span>
+            </div>
+        </div>
+
+        <div class="data-table">
+            <h3>📋 笔记详细数据</h3>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索笔记标题或作者...">
+            </div>
+            <div id="notesTable" class="table-container">
+                <div class="loading">⏳ 正在加载数据...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
