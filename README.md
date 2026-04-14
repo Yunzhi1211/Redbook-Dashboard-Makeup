@@ -27,6 +27,7 @@ Redbook-Dashboard-Makeup/
 ├── xiaohongshu_data.json     # 项目使用的数据文件
 ├── LICENSE                   # 开源协议
 └── README.md                 # 项目说明文档
+```bash
 
 ## 项目说明
 - 本项目主要用于学习、展示和前端可视化练习。
